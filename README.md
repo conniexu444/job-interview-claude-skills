@@ -21,3 +21,11 @@ Scaffolds a coding interview problem. Given a `.md` file describing the problem,
 ```
 /scaffold-problem path/to/problem.md
 ```
+
+### `/coding-interviewer`
+Acts as a coding interviewer. Reads the problem statement and your current code, figures out where you are stuck, and gives progressive hints — starting minimal and getting more specific only if you keep asking. Never gives away the answer.
+
+**Usage:**
+```
+/coding-interviewer path/to/problem.md path/to/solution.py
+```
