@@ -29,3 +29,11 @@ Acts as a coding interviewer. Reads the problem statement and your current code,
 ```
 /coding-interviewer path/to/problem.md path/to/solution.py
 ```
+
+### `/system-design-interviewer`
+Acts as a system design interviewer. Reads the problem statement and your current design work, then guides you through requirements, core entities, API design, high-level design, and deep dives — one nudge at a time. Starts with the simplest solution first, scales later.
+
+**Usage:**
+```
+/system-design-interviewer path/to/problem.md
+```
